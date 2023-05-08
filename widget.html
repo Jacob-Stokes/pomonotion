@@ -18,9 +18,11 @@
     <button id="resetButton">Reset</button>
     <button id="testButton">TEST</button>
 
-    <script src="https://github.com/Jacob-Stokes/pomonotion/timer.js"></script>
-    <script>
+    <script type="module" src="https://jacob-stokes.github.io/pomonotion/timer.js"></script>
+    <script type="module">
+        import { testButtonClick } from 'https://jacob-stokes.github.io/pomonotion/timer.js';
+        
         document.getElementById("testButton").addEventListener("click", testButtonClick);
-        </script>
+    </script>
 </body>
 </html>
